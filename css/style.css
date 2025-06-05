@@ -947,4 +947,74 @@ footer {
     .footer-content {
         flex-direction: column;
     }
+    @media (max-width: 480px) {
+        body {
+            font-size: 13px;
+        }
+        .container {
+            padding: 0 5px;
+        }
+        section {
+            padding: 30px 0;
+        }
+        .section-header h2 {
+            font-size: 16px;
+        }
+        .about-text h3,
+        .about-text h4 {
+            font-size: 14px;
+        }
+        .btn, .primary-btn, .secondary-btn {
+            padding: 8px 12px;
+            font-size: 13px;
+        }
+        .skills {
+            margin: 10px 0;
+        }
+        .service-card,
+        .certificate-card {
+            padding: 10px;
+            border-radius: 6px;
+        }
+        .certificate-details {
+            padding: 5px;
+        }
+        .portfolio-item {
+            height: 100px;
+            border-radius: 6px;
+        }
+        .footer-content {
+            padding: 0 2px;
+        }
+        .footer-logo h2 {
+            font-size: 18px;
+        }
+        .footer-newsletter input {
+            font-size: 13px;
+            padding: 8px 6px;
+        }
+        .footer-newsletter button {
+            font-size: 13px;
+            padding: 0 10px;
+        }
+        .contact-icon {
+            width: 36px;
+            height: 36px;
+            font-size: 16px;
+            margin-left: 8px;
+        }
+        .social-link {
+            width: 28px;
+            height: 28px;
+            font-size: 14px;
+            margin-left: 6px;
+        }
+        .certificate-image {
+            flex: 0 0 60px;
+        }
+        .certificate-image img {
+            border-radius: 4px;
+        }
+    }
+    
 

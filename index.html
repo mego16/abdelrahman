@@ -391,5 +391,21 @@
     </footer>
 
     <script src="js/script.js"></script>
+<script>
+// تفعيل قائمة الموبايل
+const mobileMenu = document.querySelector('.mobile-menu');
+const navUl = document.querySelector('nav ul');
+if(mobileMenu && navUl) {
+    mobileMenu.addEventListener('click', function() {
+        navUl.classList.toggle('show');
+    });
+    // إخفاء القائمة عند الضغط على أي رابط
+    navUl.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            navUl.classList.remove('show');
+        });
+    });
+}
+</script>
 </body>
 </html>
